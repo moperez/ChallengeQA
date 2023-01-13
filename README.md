@@ -21,9 +21,9 @@ gradle clean cucumber -Psuite=@Challenge
 
 ### Generacion de Reporte
 
-* 1-Ejecutar los tests, esto genera el .json (Report.json) en  la carpeta build/reports/cucumber
-* 2-Ejecutar la application test/java/report/ReportGenerator.java 
-* 3-El reporte es generado en formato html en la carpeta build/reports/cucumber/Generated-ReportAPI/
+* 1-Ejecutar los tests, como se menciona en el paso anterior mencionado. Esto genera el archivo report.json en la carpeta build/reports/cucumber
+* 2-Ejecutar la application test/java/report/reportGenerator.java 
+* 3-El reporte es generado en formato html en la carpeta build/reports/cucumber/Generated-ReportAPI/cucumber-html-reports
 
 
 
